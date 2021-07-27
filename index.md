@@ -3,6 +3,7 @@ Welcome to the Yoda user help pages. This website has practical information on t
 
 ## What is YODA?
 YODA is an application for institutions that supports RDM throughout the entire research cycle: from the safe and easy storage and sharing of data during the research process, to the sharing of data within research groups and projects and ultimately to research data archiving and publication.
+
 ## YODA and FAIR data
 YODA helps the researcher make their data “FAIR” by providing a solution that enables data discovery and sharing (i.e. findable, accessible). In addition, it facilitates and enforces the use of metadata, thereby, contributing to data interoperability and reusability. YODA provides a platform for the implementation of standard workflows that can ensure metadata quality satisfies (institutional) policy requirements, for example, for data archiving and publication. In addition, YODA’s integration with iRODS forms a single platform that accommodates both researchers with high performance (data heavy) requirements, as well as those seeking an accessible, user-friendly solution.
 YODA for the researcher
@@ -15,9 +16,7 @@ The following features make YODA particularly attractive for researchers (end-us
 - Direct coupling between data and metadata (including flexible metadata schemas)
 - Data publication and the associated minting of Digital Object Identifiers (DOI’s)
 - A flexible integration with iRODS that also caters for (very) data-intensive research.
+
 ## Availability
 Yoda is currently in a "pre-production" phase as part of the [Research Support Program](https://ub.vu.nl/nl/Images/DEF_VUAmsterdamResearchSupporProgrammeA3-HR-zonder_tcm253-934314.pdf) in collaboration with SURF and Utrecht University.
 Full implementation is expected in 2022.
-
-
-
