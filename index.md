@@ -7,7 +7,7 @@ YODA is an application for institutions that supports RDM throughout the entire 
 ## YODA and FAIR data
 YODA helps the researcher make their data “FAIR” by providing a solution that enables data discovery and sharing (i.e. findable, accessible). In addition, it facilitates and enforces the use of metadata, thereby, contributing to data interoperability and reusability. YODA provides a platform for the implementation of standard workflows that can ensure metadata quality satisfies (institutional) policy requirements, for example, for data archiving and publication. In addition, YODA’s integration with iRODS forms a single platform that accommodates both researchers with high performance (data heavy) requirements, as well as those seeking an accessible, user-friendly solution.
 ## YODA for the researcher
-YODA makes use of iRODS as a foundation technology. However, it is much easier to use thereby making it more accessible to a wide range of researchers.
+YODA makes use of [iRODS](https://irods.org) as a foundation technology. However, it is much easier to use thereby making it more accessible to a wide range of researchers.
 
 YODA presents researchers a comfortable, easy-to-use solution for the safe storage, sharing and organisation of research data that follows internationally accepted FAIR data principles. Something increasingly demanded by both their institutions and funding organisations (such as the NWO).
 
