@@ -26,7 +26,7 @@ Enter https://data.yoda.vu.nl/ in the Host name field. The port number should ha
 ![alt text](screenshots/screenshot-winscp-login-host.png "Screenshot WinSCP: host name setting")
 
 You will be prompted for a name and password.
-If you are an employee or student at Utrecht University, your user name is your VUnetId (in lowercase). External users 
+If you are an employee or student at the VU, your user name is your VUnetId (in lowercase). External users 
 have usually received their user name via email, along with a link to set their password.
 
 ![alt text](screenshots/screenshot-winscp-login-credentials.png "Screenshot WinSCP: host name setting")
