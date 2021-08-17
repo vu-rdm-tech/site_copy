@@ -3,13 +3,10 @@
 This page explains how to connect to the Yoda Network Disk from a Windows PC using the
 native WebDAV client.
 
-For most users, [YodaDrive](yoda-disk-yodadrive.md) is a better alternative. However, the Yoda team recommends
+For most users, [CyberDuck](yoda-disk-cyberduck.md) is a better alternative. However, the Yoda team recommends
 using the native WebDAV client in the following circumstances:
-- If you need to be able to connect to multiple Yoda environments simultaneously.
-- If you can't install YodaDrive, for example if the security settings of your laptop
+- If you can't install CyberDuck, for example if the security settings of your laptop
   prevent you from installing any new applications.
-- YodaDrive is intended for use with Windows 10. If you use Windows 7 and are unable to upgrade,
-  you can still use the native WebDAV client to connect to the Yoda Network Disk as a temporary workaround.
 
 If you have already configured a mapped network drive and want to update your password, please
 consult the [instructions for updating your password](yoda-disk-windowsnative-update-passwd.md).
@@ -30,11 +27,8 @@ Select a drive letter &mdash; any free letter is okay. Now enter https://data.yo
 
 Ensure the box "Connect using different credentials" is checked and click on the Finish button. 
 
-![alt text](screenshots/screenshot-windows-connectdifcr.png "Screenshot Windows: checkbox for connecting using different credentials when mapping network drive")
- 
 You will be prompted for a name and password.
-If you are an employee or student at Utrecht University, your user name is your Utrecht University email address (in lowercase) and your password
-is your Solis password. External users have usually received their user name via email, along with a link to set their password.
+If you are an employee or student at the VU, your user name is your VUnetId (in lowercase). External users have usually received their user name via email, along with a link to set their password.
 If you are working on your personal PC or laptop, tick the checkbox &ldquo;Remember my credentials&rdquo;. If you are working on a shared computer, it is
 better not to tick this checkbox for security reasons. Click on the &ldquo;OK&rdquo; button.
 

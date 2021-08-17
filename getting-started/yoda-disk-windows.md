@@ -21,5 +21,5 @@ Using these tools you can access the Yoda Disk via a drive letter.
 - [WebDrive](yoda-disk-webdrive.md) is a VU-supported method to remotely access files and can also be used on "green"
 pc's.
 
-Note it is possible to directly mount the Yoda Disk in Windows Explorer. However, this has severe restrictions: a maximum
-file size of 50MB and a maximum of 1000 files per folder. For this reason we don not recommend this method. 
+Note it is possible to directly mount the Yoda Disk in [Windows Explorer](yoda-disk-windowsnative.md). However, this has severe restrictions: a maximum
+file size of 50MB and a maximum of 1000 files per folder. For this reason we do not recommend this method. 
