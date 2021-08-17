@@ -104,10 +104,10 @@ Alternatively, the context menu (activate by right clicking on a Yoda project fi
 
 ![](screenshots/cbd-file-right-click.png)
 
-## Some things to consider when using CyberDuck/webDAV
+## Some things to consider when using Cyberduck/webDAV
 
 ### Total path and file length
-When using Cyberduck you need to make sure that your path lengths (directories + filename) are less than 255 characters long. When using webDAV this is also true on the server side (Yoda) this includes server name, project name and project folders. Be careful when copying deep directory structures and very long filenames to Yoda using Cyberduck and webDAV. Fortunately, Cyberduck will display an error message and not copy theile when either trying to copy a file with a too long source or destination path. This error is typically "access denied" (403 or 500) error and if you click "continue" CyberDuck simply skips that file and it is not transferred to Yoda.
+When using Cyberduck you need to make sure that your path lengths (directories + filename) are less than 255 characters long. When using webDAV this is also true on the server side (Yoda) this includes server name, project name and project folders. Be careful when copying deep directory structures and very long filenames to Yoda using Cyberduck and webDAV. Fortunately, Cyberduck will display an error message and not copy theile when either trying to copy a file with a too long source or destination path. This error is typically "access denied" (403 or 500) error and if you click "continue" Cyberduck simply skips that file and it is not transferred to Yoda.
 
 **Recommendation**. If you get "access denied errors" when transferring files with Cyberduck
 - Make a note of which files fail to copy.

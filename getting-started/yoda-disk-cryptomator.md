@@ -1,7 +1,7 @@
-# Encrypting your data using Cryptomator and CyberDuck
+# Encrypting your data using Cryptomator and Cyberduck
 
 To work with privacy sensitive data you might be required to encrypt the data you store on Yoda. 
-An easy way to do this is to use CyberDuck (or MountainDuck) together with the free tool Cryptomator. 
+An easy way to do this is to use Cyberduck (or MountainDuck) together with the free tool Cryptomator. 
 
 Cryptomator is available for Windows, MacOS and Linux.
 
@@ -11,18 +11,18 @@ Note this workflow means local copies of the files on your laptop are not in the
 To make sure local files are also safely encrypted you should enable Bitlocker, this should be the case on all VU laptops. 
 
 # Using Cryptomator
-First connect to the Yoda disk using [CyberDuck](yoda-disk-cyberduck.md).
+First connect to the Yoda disk using [Cyberduck](yoda-disk-cyberduck.md).
 
 ## Install Cryptomator
  Download and install from the [Cryptomator](https://cryptomator.org/) site.
 
 ## Create a new Cryptomator vault
-Right click in CyberDuck and choose "New Encrypted Vault"
+Right click in Cyberduck and choose "New Encrypted Vault"
 ![alt text](screenshots/cryptomator-create.png "Create vault")
 Give the folder a name and set a passphrase.
 
 ![alt text](screenshots/cryptomator-passphrase.png "Create vault, set passphrase")
-The vault will look like a normal folder in CyberDuck
+The vault will look like a normal folder in Cyberduck
 
 ![alt text](screenshots/cryptomator-folder.png "Cryptomator folder")
 

@@ -3,8 +3,8 @@
 This page explains how to connect to the Yoda Network Disk from a Windows PC using the
 native WebDAV client.
 
-For most users, [CyberDuck](yoda-disk-cyberduck.md) is a better alternative. However, the Yoda team recommends
-using the native WebDAV client if you can't install CyberDuck, for example if the security settings of your laptop
+For most users, [Cyberduck](yoda-disk-cyberduck.md) is a better alternative. However, the Yoda team recommends
+using the native WebDAV client if you can't install Cyberduck, for example if the security settings of your laptop
   prevent you from installing any new applications.
 
 If you have already configured a mapped network drive and want to update your password, please

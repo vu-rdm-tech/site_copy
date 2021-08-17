@@ -27,4 +27,4 @@ in my keychain&rdquo;.  Click on the connect button.
 
 You should now have a new Yoda Network Disk location in Finder. Its name is the network address you entered before. You may have to scroll down in finder in order to see it.
 
-You can also connect using CyberDuck on MacOS, see [connect using cyberduck](yoda-disk-cyberduck)
+You can also connect using Cyberduck on MacOS, see [connect using cyberduck](yoda-disk-cyberduck)
