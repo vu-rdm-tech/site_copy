@@ -1,9 +1,8 @@
 # Using Cyberduck with Yoda
-*Brett Olivier - version 4*
 
 Cyberduck is desktop software for Microsoft Windows 10 and Apple OSX that can be used to transfer files between your computer and Yoda. In this guide we will explain how to install Cyberduck, create a new connection (bookmark) to Yoda and end with some frequently asked questions and tips on using Cyberduck
 
-# Getting Cyberduck
+## Getting Cyberduck
 
 **Apple OSX** : Cyberduck can be installed from the VU software center or downloaded from the internet.
 
@@ -15,15 +14,15 @@ Run the downloaded installer by double clicking on "Cyberduck-installer.exe" whi
 
 ![](screenshots-cyberduck/cbd-startmenu.png)
 
-# Configuring Cyberduck
+## Configuring Cyberduck
 
-## Accessing Cyberduck's settings
+### Accessing Cyberduck's settings
 
 Cyberducks settings can be accessed by going to the Edit â preferences:
 
 ![](screenshots-cyberduck/cbd-preferences.png)
 
-## Single threaded WebDAV copying
+### Single threaded WebDAV copying
 
 Before using Cyberduck you should change the following settings that ensure better data integrity and more reliable file transfers. First go to Cyberducks settings menu and Select "Transfers" from the top menu.
 
@@ -35,7 +34,7 @@ Make sure "Transfer Files" is set to "Open single connection" and that "Segmente
 
 Close the settings by clicking the x on the top right of the window.
 
-# Create a new secure WebDAV (HTTPS) connection to Yoda (bookmark)
+## Create a new secure WebDAV (HTTPS) connection to Yoda (bookmark)
 
 First create a new bookmark by pressing the + button on the lower left side of the screen.
 
@@ -65,7 +64,7 @@ Cyberduck uses your home folder as a default directory to download files. This c
 
 You have successfully created a bookmark, close the editing window by clicking on the R X button on the top right of the edit window to return to the main Cyberduck screen.
 
-# Connecting to Yoda
+## Connecting to Yoda
 
 The main screen shows all the connections (bookmarks) you have defined. To connect, double click on the bookmark (in this case "data.yoda.vu.nl - WebDAV (HTTPS)") and you will be connected.
 
@@ -79,7 +78,7 @@ You should now see your project directory in an explorer like window:
 
 ![](screenshots-cyberduck/cbd-project-folders.png)
 
-# Working with Yoda folders and uploading/downloading files
+## Working with Yoda folders and uploading/downloading files
 
 Click on a \> to open a folder,
 
@@ -105,9 +104,9 @@ Alternatively, the context menu (activate by right clicking on a Yoda project fi
 
 ![](screenshots-cyberduck/cbd-file-right-click.png)
 
-# Some things to consider when using CyberDuck/webDAV
+## Some things to consider when using CyberDuck/webDAV
 
-## Total path and file length
+### Total path and file length
 When using Cyberduck you need to make sure that your path lengths (directories + filename) are less than 255 characters long. When using webDAV this is also true on the server side (Yoda) this includes server name, project name and project folders. Be careful when copying deep directory structures and very long filenames to Yoda using Cyberduck and webDAV. Fortunately, Cyberduck will display an error message and not copy theile when either trying to copy a file with a too long source or destination path. This error is typically "access denied" (403 or 500) error and if you click "continue" CyberDuck simply skips that file and it is not transferred to Yoda.
 
 **Recommendation**. If you get "access denied errors" when transferring files with Cyberduck
@@ -115,9 +114,9 @@ When using Cyberduck you need to make sure that your path lengths (directories +
 - Flatten the directory structure or shorten the filename.
 - Zip the "main" directory branch(es) that contain the long path names into individual ZIP archives.
 
-# Frequently asked questions
+## Frequently asked questions
 
-## Q1) When I try to delete a file, I get a "cannot delete \<filename\>" Cyberduck error.
+### Q1) When I try to delete a file, I get a "cannot delete \<filename\>" Cyberduck error.
 
 ![](screenshots-cyberduck/cbd-error-cannot-delete.png)
 
@@ -128,7 +127,7 @@ This error message can appear when the file/folder is read-only. Read only acces
 
 _Answer: unlock the folder in the research portal or get project read/write access._
 
-## Q2) I copy a file using Cyberduck, the transfer succeeds but I don't see the file in the portal.
+### Q2) I copy a file using Cyberduck, the transfer succeeds but I don't see the file in the portal.
 
 The folder you are copying to is marked as read only. Read only access can be a result of:
 
@@ -137,21 +136,21 @@ The folder you are copying to is marked as read only. Read only access can be a 
 
 _Answer: unlock the folder in the research portal or get project read/write access._
 
-## Q3) I tried to delete a file but get an "Access denied" error message
+### Q3) I tried to delete a file but get an "Access denied" error message
 
 One possibility is that the file has been corrupted during upload and is incorrectly registered in the iRODS database.
 
 _Answer: Contact your data manager or iRODS administrator to fix the problem. Set Cyberduck to use single threaded WebDAV copying (See Appendix 1)_
 
-# Cyberduck settings and functionality
+## Cyberduck settings and functionality
 
-## Accessing Cyberduck's settings
+### Accessing Cyberduck's settings
 
 Cyberducks settings can be accessed by going to the Edit â preferences:
 
 ![](screenshots-cyberduck/cbd-preferences.png)
 
-## Enabling checksum verification
+### Enabling checksum verification
 
 Cyberduck can try to verify that a file was downloaded or uploaded using an internal checksum. To enable this functionality, first go to Cyberducks settings menu and Select "Transfers" from the top menu and the "Checksum" tab. Enable the upload/download verification as required. Enabling either of these options can **negatively** affect Cyberduck's file transfer performance, however, the **upload** option is highly recommended for ensuring **archive** data integrity.
 
@@ -159,7 +158,7 @@ Cyberduck can try to verify that a file was downloaded or uploaded using an inte
 
 Close the preferences window to save your new configuration.
 
-# Protecting your Yoda files with Cyberduck and CryptoMator
+## Protecting your Yoda files with Cyberduck and CryptoMator
 
 If you need to store encrypted files and directories on Yoda this can easily be done using Cyberduck and the client-side encryption tool CryptoMator ([https://cryptomator.org/](https://cryptomator.org/). Working securely with data includes protecting remote/cloud data, protecting data when it is transferred from the client to the server and protecting the data on your local hard disk.
 
@@ -169,4 +168,4 @@ In the above figure we see how Cyberduck/CryptoMator can be used with Yoda. Note
 
 For more information see the Yoda help pages or contact the RDM support desk [rdm@vu.nl](mailto:rdm@vu.nl) 
 
-(C) Vrije Universiteit Amsterdam, 2021 licensed as CC-BY-SA
+(C) Brett G. Olivier, Vrije Universiteit Amsterdam, 2021. Version 4 released under CC-BY-SA license.
