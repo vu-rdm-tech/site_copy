@@ -5,10 +5,12 @@ An easy way to do this is to use CyberDuck (or MountainDuck) together with the f
 
 Cryptomator is available for Windows, MacOS and Linux.
 
-Note this workflow means local copies of the files on your laptop are not encrypted. 
-To make sure local files are also safely encrypted you should enable Bitlocker.
-On all VU laptops Bitlocker is enabled. 
+![](screenshots/cbd-cryptomator-overview.png)
 
+Note this workflow means local copies of the files on your laptop are not in the encrypted vault. 
+To make sure local files are also safely encrypted you should enable Bitlocker, this should be the case on all VU laptops. 
+
+# Using Cryptomator
 First connect to the Yoda disk using [CyberDuck](yoda-disk-cyberduck.md).
 
 ## Install Cryptomator
