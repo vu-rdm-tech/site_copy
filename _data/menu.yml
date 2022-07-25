@@ -26,6 +26,9 @@ getting-started:
     url: /getting-started/index.html
   - page: Getting started with the Yoda portal
     url: /getting-started/getting-started-portal.html
+    sub:
+      - page: Managing groups, users and access rights
+        url: /functions/User-management.html
   - page: Metadata in Yoda
     url: /getting-started/metadata-add.html
   - page: Connecting to the Yoda Network Disk on Windows
