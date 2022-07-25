@@ -21,7 +21,7 @@ If you are the group manager of a group, you will be able to add users to the gr
 - Enter the email address of the user. The address must be entered entirely in lower case.
 - If the email address is new for Yoda you will have the option to create the user otherwise you add the existing user to this group. 
 
-![Adding user](Adding-user.jpg)
+![Adding user](../functions/Adding-user.jpg)
 
 A student or employee with a VUnetID will be able to log in using his or her email address and
 VUnetID password. New users with an external email address will receive an invitation link that can be used to create an account.
@@ -50,11 +50,11 @@ In order to change the role of a group member:
 - Press one of the buttons next to the &ldquo;Change role&rdquo; label to change the user's role.
   The button with the upward pointing arrow will grant a role with more rights, whereas the button
   with the downward pointing arrow will grant a role with fewer rights. The meaning of the icons is:
-   * Crenellated tower: group manager
-   * Person's head: regular member
-   * Eye: member with read-only access
+   * <i class="fa fa-user-circle-o" aria-hidden="true"></i> group manager
+   * <i class="fa fa-user" aria-hidden="true"></i> regular member
+   * <i class="fa fa-eye" aria-hidden="true"></i> member with read-only access
 
-![Setting user rights](Setting-user-rights.jpg)
+![Setting user rights](../functions/Setting-user-rights.jpg)
 
 ## Revoking access to a group
 If you are the group manager of a group, you will be able to revoke access to a group in the following way:
@@ -65,5 +65,5 @@ If you are the group manager of a group, you will be able to revoke access to a 
 - In the right pane of the Group Manager, select the user.
 - Click on the red &ldquo;Remove user&rdquo; button.
 
-![Removing user](removing-user.jpg)
+![Removing user](../functions/removing-user.jpg)
 .
