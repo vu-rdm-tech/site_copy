@@ -57,7 +57,6 @@ In order to change the role of a group member:
 ![Setting user rights](Setting-user-rights.jpg)
 
 ## Revoking access to a group
-
 If you are the group manager of a group, you will be able to revoke access to a group in the following way:
 - Navigate to the [Yoda portal](../getting-started/getting-started-portal.html).
 - Log in
