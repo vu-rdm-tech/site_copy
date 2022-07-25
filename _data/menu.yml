@@ -29,6 +29,8 @@ getting-started:
     sub:
       - page: Managing groups, users and access rights
         url: /functions/User-management.html
+      - page: Storing data in Yoda
+        url: /functions/Storing-data.html
   - page: Metadata in Yoda
     url: /getting-started/metadata-add.html
   - page: Connecting to the Yoda Network Disk on Windows
