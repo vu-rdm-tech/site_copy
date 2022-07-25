@@ -1,4 +1,4 @@
-## Access Yoda Network Disk via a GUI
+## Access Yoda Network Drive via a client
 * [Configuring the Yoda Network Disk on Windows](yoda-disk-windows.html)
 * [Configuring the Yoda Network Disk on MacOS](yoda-disk-macos.html)
 * [Configuring the Yoda Network Disk on Linux](yoda-disk-linux.html)

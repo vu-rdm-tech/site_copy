@@ -24,15 +24,15 @@ main:
 getting-started:
   - page: Getting started with Yoda
     url: /getting-started/index.html
-  - page: Getting started with the Yoda portal
+  - page: The Yoda portal
     url: /getting-started/getting-started-portal.html
     sub:
       - page: Managing groups, users and access rights
         url: /getting-started/user-management.html
       - page: Metadata in Yoda
         url: /getting-started/metadata-add.html
-  - page: Getting started with the Yoda Network Disk
-    url: /getting-started/getting-started-disk.html
+  - page: The Yoda network drive
+    url: /getting-started/getting-started-drive.html
     sub:
       - page: Connecting to the Yoda Network Disk on Windows
         url: /getting-started/yoda-disk-windows.html
