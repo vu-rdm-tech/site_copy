@@ -66,3 +66,4 @@ If you are the group manager of a group, you will be able to revoke access to a 
 - Click on the red &ldquo;Remove user&rdquo; button.
 
 ![Removing user](removing-user.jpg)
+.
