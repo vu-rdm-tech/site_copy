@@ -13,14 +13,14 @@ implementation of an iRODS protocol client.
 
 Native iRODS iCommands packages are available for CentOS and Ubuntu.
 
-Windows 10 users can run the iCommands in [the Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/about).
-MacOS users can run the commands inside a Linux VM.
+Windows 10/11 users can run the iCommands in [the Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/about), we recommend WSL 2.
+There is no officially supported icommands installation for Mac OSX. You could try https://learning.cyverse.org/ds/icommands/#icommands-installation-for-mac-os-x or install the icommands inside a Linux VM.
 
 ### Installing iCommands on CentOS
 
-iRODS currently supports CentOS 7. As of July 2021, CentOS 8 is not supported yet.
+iRODS currently supports CentOS 7.
 
-Use these commands to install the iCommands package on CentOS 7:
+Use these commands to install the iCommands package on CentOS 7, the preferred version for Yoda 1.8 is 4.2.9:
 
 ```
 sudo yum -y install wget epel-release yum-plugin-versionlock
@@ -30,36 +30,22 @@ sudo yum -y install irods-runtime-4.2.9 irods-icommands-4.2.9
 sudo yum versionlock irods-runtime irods-icommands
 ```
 
+Only the newest version 4.3.0 is supported on CentOS 8, but this should not be a problem:
+```
+sudo yum -y install wget epel-release yum-plugin-versionlock
+sudo rpm --import https://packages.irods.org/irods-signing-key.asc
+wget -qO - https://packages.irods.org/renci-irods.yum.repo | sudo tee /etc/yum.repos.d/renci-irods.yum.repo
+sudo yum -y install irods-runtime-4.3.0 irods-icommands-4.3.0
+sudo yum versionlock irods-runtime irods-icommands
+```
+
 ### Installing iCommands on Ubuntu
-
-iRODS currently supports Ubuntu 18.04 LTS officially. Although Ubuntu 20.04 LTS is not supported officially,
- the iCommands work on this distribution.
-
-Use these commands to install the iCommands package on Ubuntu 18.04 LTS:
-
+The following should work to install the icommands 4.3.0 on Ubuntu 18 or 20 (22 is not suppported).
 ```
 wget -qO - https://packages.irods.org/irods-signing-key.asc | sudo apt-key add -
-echo "deb [arch=amd64] https://packages.irods.org/apt/ bionic main" | sudo tee /etc/apt/sources.list.d/renci-irods.list
-sudo apt update
-sudo apt install irods-icommands
+echo "deb [arch=amd64] https://packages.irods.org/apt/ $(lsb_release -sc) main" | sudo tee /etc/apt/sources.list.d/renci-irods.list
+sudo apt-get update
 ```
-
-Ubuntu 20 will complain about missing some specific packages. If you need to use ubuntu 20 you can install the missing 
-packages like this (versions as of June 2021): 
-```
-###
-# 2. Install python-urlib3, python-requests and libssl1.0.0
-wget -c  \
-  http://security.ubuntu.com/ubuntu/pool/main/p/python-urllib3/python-urllib3_1.22-1ubuntu0.18.04.2_all.deb \
-  http://security.ubuntu.com/ubuntu/pool/main/r/requests/python-requests_2.18.4-2ubuntu0.1_all.deb \
-  http://security.ubuntu.com/ubuntu/pool/main/o/openssl1.0/libssl1.0.0_1.0.2n-1ubuntu5.6_amd64.deb
-sudo apt install \
-  ./python-urllib3_1.22-1ubuntu0.18.04.2_all.deb \
-  ./python-requests_2.18.4-2ubuntu0.1_all.deb \
-  ./libssl1.0.0_1.0.2n-1ubuntu5.6_amd64.deb
-```
-
-
 ## Configuration
 
 The iCommands need to be configured to connect to the right Yoda environment.
