@@ -19,11 +19,12 @@ If you are the group manager of a group, you will be able to add users to the gr
 - In the left pane of the Group Manager, select the group
 - Click on the link &ldquo;Click here to add a new user to the group&rdquo;.
 - Enter the email address of the user. The address must be entered entirely in lower case.
+- If the email address is new for Yoda you will have the option to create the user otherwise you add the existing user to this group. 
 
 ![Adding user](Adding-user.jpg)
 
-A student or employee with an Utrecht University email address will be able to log in using his or her email address and
-Solis password. Users with an external email address will receive an invitation link that can be used to create an account.
+A student or employee with a VUnetID will be able to log in using his or her email address and
+VUnetID password. New users with an external email address will receive an invitation link that can be used to create an account.
 In this case, you (the host) will receive two email notifications: one to confirm the invitation and one to confirm that the user has
 registered his or her account.
 
@@ -64,3 +65,5 @@ If you are the group manager of a group, you will be able to revoke access to a 
 - In the left pane of the Group Manager, select the group.
 - In the right pane of the Group Manager, select the user.
 - Click on the red &ldquo;Remove user&rdquo; button.
+
+![Removing user](removing-user.jpg)
