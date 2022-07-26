@@ -31,6 +31,10 @@ getting-started:
         url: /getting-started/user-management.html
       - page: Metadata in Yoda
         url: /getting-started/metadata-add.html
+      - page: Archiving
+        url: /getting-started/archiving.html
+      - page: Publishing
+        url: /getting-started/publishing.html
   - page: The Yoda network drive
     url: /getting-started/getting-started-drive.html
     sub:
