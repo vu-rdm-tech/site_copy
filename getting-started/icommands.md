@@ -73,7 +73,7 @@ You will need to change the example user name to your Yoda user name.
 }
 ```
 
-## Getting started with using the iCommands
+## Getting started with iCommands
 
 After installing and configuring the iCommands, you should be able to log in
 on the Yoda environment using the [iinit command](https://docs.irods.org/master/icommands/user/#iinit).
