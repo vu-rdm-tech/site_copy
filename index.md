@@ -21,4 +21,7 @@ The following features make YODA particularly attractive for researchers (end-us
 
 ## Availability
 Yoda is currently in a "pre-production" phase as part of the [Research Support Program](https://ub.vu.nl/nl/Images/DEF_VUAmsterdamResearchSupporProgrammeA3-HR-zonder_tcm253-934314.pdf) in collaboration with SURF and Utrecht University.
-Full implementation is expected in 2022.
+Full implementation is expected starting January 2023.
+
+For participants in the final Yoda user acceptance test in November 2022 a [request form](https://forms.office.com/r/WgmHaQEKMb) is
+available. 
