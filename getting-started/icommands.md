@@ -78,6 +78,6 @@ You will need to change the example user name to your Yoda user name.
 After installing and configuring the iCommands, you should be able to log in
 on the Yoda environment using the [iinit command](https://docs.irods.org/master/icommands/user/#iinit).
 
-Sections 5.3, 5.4 and 5.5 of the [iRODS beginner training](https://irods.org/uploads/2016/06/irods_beginner_training_2016.pdf) and [this SURF wiki page](https://servicedesk.surf.nl/wiki/pages/viewpage.action?pageId=19824798)
+Sections 5.3, 5.4 and 5.5 of the [iRODS beginner training](https://irods.org/uploads/2016/06/irods_beginner_training_2016.pdf) 
 contain some examples of how to use the iCommands to transfer and manage files. [The iCommands manual](https://docs.irods.org/master/icommands/user/)
 has additional information.
