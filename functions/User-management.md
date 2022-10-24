@@ -18,7 +18,6 @@ If you are the group manager of a group, you will be able to add users to the gr
 - Click on the button on the top-right with your username.
 
 ![group manager](group-manager.jpg)
-- Select &ldquo;Group Manager&rdquo; in the top menu.
 - In the left pane of the Group Manager, select the group
 - Click on the link &ldquo;Click here to add a new user to the group&rdquo;.
 - Enter the email address of the user. The address must be entered entirely in lower case.
