@@ -33,18 +33,18 @@ jobs:
       run: |
         bundle exec jekyll build
 
-    - name: Run basic HTML checks
-      run: |
-        sudo apt-get update
-        sudo apt-get install -y libxslt-dev libxml2-dev zlib1g-dev
-        gem install html-proofer --no-document
-        htmlproofer _site --alt-ignore '/assets/images/header.jpg' --disable-external
-      env:
-        NOKOGIRI_USE_SYSTEM_LIBRARIES: true
+    #- name: Run basic HTML checks
+    #  run: |
+    #    sudo apt-get update
+    #    sudo apt-get install -y libxslt-dev libxml2-dev zlib1g-dev
+    #    gem install html-proofer --no-document
+    #    htmlproofer _site --alt-ignore '/assets/images/header.jpg' --disable-external
+    #  env:
+    #    NOKOGIRI_USE_SYSTEM_LIBRARIES: true
 
-    - name: Check external links with Linkchecker
-      run: |
-        sudo apt-get install -y linkchecker
-        echo -e "[checking]\nlocalwebroot=$(realpath _site)" > lc.config
-        linkchecker -f lc.config _site --ignore-url 'maxcdn.bootstrapcdn.com' --ignore-url '/assets/images/'
+    #- name: Check external links with Linkchecker
+    #  run: |
+    #    sudo apt-get install -y linkchecker
+    #    echo -e "[checking]\nlocalwebroot=$(realpath _site)" > lc.config
+    #    linkchecker -f lc.config _site --ignore-url 'maxcdn.bootstrapcdn.com' --ignore-url '/assets/images/'
 
