@@ -25,6 +25,10 @@ The main folder ("research-...") contains current research data that researchers
 collaborate on. Data is kept in subfolders. The subfolders can be organized according
 to the needs of the researcher.
 
+You can also drag-and-drop files to your research folder.
+
+![img.png](screenshots/research-drag-drop.png)
+
 #### Archiving
 After completion of a study, the data in that subfolder can be deposited so that it is
 kept for 10 years or longer. Use the "Submit" button to deposit the subfolder. This will
