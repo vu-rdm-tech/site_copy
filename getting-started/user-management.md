@@ -46,7 +46,9 @@ Users can have three different roles in a group:
 In order to change the role of a group member:
 - Navigate to the [Yoda portal](../getting-started/getting-started-portal.html).
 - Log in
-- Select &ldquo;Group Manager&rdquo; in the top menu.
+- Click on the button on the top-right with your username.
+
+![group manager](../getting-started/screenshots/group-manager.jpg)
 - In the left pane of the Group Manager, select the group.
 - In the right pane of the Group Manager, select the user.
 - Press one of the buttons next to the &ldquo;Change role&rdquo; label to change the user's role.
@@ -62,7 +64,9 @@ In order to change the role of a group member:
 If you are the group manager of a group, you will be able to revoke access to a group in the following way:
 - Navigate to the [Yoda portal](../getting-started/getting-started-portal.html).
 - Log in
-- Select &ldquo;Group Manager&rdquo; in the top menu.
+- Click on the button on the top-right with your username.
+
+![group manager](../getting-started/screenshots/group-manager.jpg)
 - In the left pane of the Group Manager, select the group.
 - In the right pane of the Group Manager, select the user.
 - Click on the red &ldquo;Remove user&rdquo; button.
