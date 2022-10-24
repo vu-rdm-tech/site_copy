@@ -3,9 +3,14 @@
 ## Logging in
 Go to [https://portal.yoda.vu.nl/](https://portal.yoda.vu.nl/)
 
-Log in using the "Sign in" button. You will be prompted for your user name and password. If you are an employee or student 
-at Vrije Universiteit, your user name is your vunetid (in lowercase). External users have usually received their user name
-via email, along with a link to set their password.  
+Log in using the "Sign in" button. You will be prompted for your email address. If you are an employee or student 
+at Vrije Universiteit, your user name is your primary email address (in lowercase). You will be forwarded to the familiar 
+VU login page. External users have usually received their user name
+via email, along with a link to set their password.
+
+VU users have to login with Multi Factor Authentication (MFA). Note that instead of the TiQR app you should now use the 
+more user-friendly Azure MFA. Switch by following [this instruction manual](https://vunl.sharepoint.com/:f:/r/sites/Collaboration-Services/Identity%20and%20security/Tiqr%20-%20MFA%20Manuals?csf=1&web=1&e=KhnHHc) 
+on the VU SharePoint.
 
 ## Overview of the Yoda Portal
 ### Group Manager
