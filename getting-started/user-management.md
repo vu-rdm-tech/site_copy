@@ -16,6 +16,7 @@ If you are the group manager of a group, you will be able to add users to the gr
 - Navigate to the [Yoda portal](../getting-started/getting-started-portal.html).
 - Log in
 - Click on the button on the top-right with your username.
+
 ![group manager](../getting-started/screenshots/group-manager.jpg)
 - In the left pane of the Group Manager, select the group
 - Click on the link &ldquo;Click here to add a new user to the group&rdquo;.
