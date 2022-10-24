@@ -15,7 +15,8 @@ Users can have three different roles in a group:
 If you are the group manager of a group, you will be able to add users to the group in the following way:
 - Navigate to the [Yoda portal](../getting-started/getting-started-portal.html).
 - Log in
-- Select &ldquo;Group Manager&rdquo; in the top menu.
+- Click on the button on the top-right with your username.
+![group manager](../getting-started/screenshots/group-manager.jpg)
 - In the left pane of the Group Manager, select the group
 - Click on the link &ldquo;Click here to add a new user to the group&rdquo;.
 - Enter the email address of the user. The address must be entered entirely in lower case.
