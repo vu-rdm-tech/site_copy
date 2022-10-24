@@ -76,7 +76,8 @@ You will need to change the example user name to your Yoda user name.
 ## Getting started with iCommands
 
 After installing and configuring the iCommands, you should be able to log in
-on the Yoda environment using the [iinit command](https://docs.irods.org/master/icommands/user/#iinit).
+on the Yoda environment using the [iinit command](https://docs.irods.org/master/icommands/user/#iinit). 
+Note that VU users need to set a Data Access Password.
 
 Sections 5.3, 5.4 and 5.5 of the [iRODS beginner training](https://irods.org/uploads/2016/06/irods_beginner_training_2016.pdf) 
 contain some examples of how to use the iCommands to transfer and manage files. [The iCommands manual](https://docs.irods.org/master/icommands/user/)

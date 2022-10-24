@@ -12,5 +12,4 @@ Then click on the Connect button.
 ![alt text](screenshots/linux-enter-password.png "GNOME Files password dialog screenshot")
 
 You will be prompted for a name and password.
-If you are an employee or student at the VU, your user name is your vunetid (in lowercase) vunetid password.  External 
-users have usually received their user name via email, along with a link to set their password.
+Username is your email. Set a [Data Access Password](data-access-password.md) and copy it to the Password field.

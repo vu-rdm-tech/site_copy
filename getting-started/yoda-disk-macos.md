@@ -21,8 +21,7 @@ Press the Connect button.
 ![alt text](screenshots/macos-connect-credentials.jpg "Connect to server credentials dialog")
 
 You should now see a credentials dialog. The "Connect as" setting should be set to "Registered user".
-If you are an employee or student at Utrecht University, your user name is your Utrecht University email address (in lowercase) and your password
-is your Solis password. External users have usually received their user name via email, along with a link to set their password. Tick the checkbox &ldquo;Remember this password
+"Name" should be your email address. Create a [Data Access Password](data-access-password.md) and copy it to the Password field. Tick the checkbox &ldquo;Remember this password
 in my keychain&rdquo;.  Click on the connect button.
 
 You should now have a new Yoda Network Disk location in Finder. Its name is the network address you entered before. You may have to scroll down in finder in order to see it.

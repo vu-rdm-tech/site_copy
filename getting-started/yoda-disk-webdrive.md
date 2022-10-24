@@ -24,8 +24,8 @@ Choose Secure WebDAV and click Next.
 
 Enter https://data.yoda.vu.nl/ in the Url/Address field.
 
-Enter the Username and Password (either vunetid or an emailaddress). You can click Test Connection to see if the 
-credentials are correct. 
+Enter the Username (an emailaddress). Create a [data access password](data-access-password.md) and copy it to the Password field.
+You can click Test Connection to see if the credentials are correct. 
 
 Click Next
 

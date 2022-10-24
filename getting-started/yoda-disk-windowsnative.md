@@ -27,9 +27,8 @@ Select a drive letter &mdash; any free letter is okay. Now enter https://data.yo
 Ensure the box "Connect using different credentials" is checked and click on the Finish button. 
 
 You will be prompted for a name and password.
-If you are an employee or student at the VU, your user name is your VUnetId (in lowercase). External users have usually received their user name via email, along with a link to set their password.
-If you are working on your personal PC or laptop, tick the checkbox &ldquo;Remember my credentials&rdquo;. If you are working on a shared computer, it is
-better not to tick this checkbox for security reasons. Click on the &ldquo;OK&rdquo; button.
+Name is your email address. Create a [data access password](data-access-password.md) and copy it to the Password field
+If you are working on your personal PC or laptop, tick the checkbox &ldquo;Remember my credentials&rdquo;.
 
 ![alt text](screenshots/screenshot-windows-credentials.png "Screenshot Windows: dialog for entering credentials when mapping network drive")
  

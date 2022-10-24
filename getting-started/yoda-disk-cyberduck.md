@@ -54,9 +54,11 @@ and you will see the WebDAV (HTTPS) connection page.
 
 Fill in the following information in the appropriate blocks
 
+First set a [Data Access Password](data-access-password.md). 
+
 - Server: **data.yoda.vu.nl**
-- Username: your vunet-id (abc123)
-- Password: (optional) if you don't fill this, recommended for data security, you will be asked to do so when you connect.
+- Username: your email address
+- Password: paste (CTRL-v) the data access password you created in the portal. 
 
 Cyberduck uses your home folder as a default directory to download files. This can be changed by clicking on "More Options" and choosing a new folder
 
@@ -73,6 +75,8 @@ The main screen shows all the connections (bookmarks) you have defined. To conne
 If you did not fill in your password in the bookmark you will be asked to do so now. Please note, "Save password" is automatically selected by Cyberduck, you may decide to (un)check this option. Fill in your vunet-id password and click " **Login**" to connect.
 
 ![](screenshots/cbd-login-screen.png)
+
+If your login unexpectedly fails, please check if your [data access password](data-access-password.md) is still valid.
 
 You should now see your project directory in an explorer like window:
 

@@ -42,10 +42,12 @@ And adjust the parameters as needed:
 - Replace the _uid_ and _gid_ parameters with your uid and gid, as shown by the _id_ command.
 - If you don't want the Yoda Network Disk to be mounted automatically after your system starts, remove "auto," from the options.
 
+First set a [Data Access Password](data-access-password.md).
+
 Now use a text editor to create a secrets file, which contains your Yoda Network Disk URL, Yoda user name and password, separated by spaces.
-If you are an employee or student at Vrije Universitiet, your user name is your VU email address (in lowercase) and your password
-is your Vunet password. External users have usually received their user name via email, along with a link to set their password. 
-Example of a secrets file: &ldquo;https://data.yoda.vu.nl xxx123  mySecretPassword&rdquo;. You need
+If you are an employee or student at Vrije Universiteit, your user name is your VU email address (in lowercase) and your password
+is your [Data Access Password](data-access-password.md). External users have usually received their user name via email, along with a link to set their password. 
+Example of a secrets file: &ldquo;https://data.yoda.vu.nl xxx@vu.nl  myDataAccessPassword&rdquo;. You need
 to escape any backslashes and double quotes in your password with a backslash (e.g. use &ldquo;\\\\&rdquo; instead of &ldquo;\&rdquo;).
 
 Install this secrets file as the global davfs2 secrets file:
