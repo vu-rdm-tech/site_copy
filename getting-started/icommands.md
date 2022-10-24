@@ -61,9 +61,9 @@ You will need to change the example user name to your Yoda user name.
 {
     "irods_host": "portal.yoda.vu.nl",
     "irods_port": 1247,
-    "irods_home": "/tempZone/home",
-    "irods_user_name": "xxx123",
-    "irods_zone_name": "tempZone",
+    "irods_home": "/vu/home",
+    "irods_user_name": "xxx@vu.nl",
+    "irods_zone_name": "vu",
     "irods_authentication_scheme": "pam",
     "irods_encryption_algorithm": "AES-256-CBC",
     "irods_encryption_key_size": 32,
