@@ -38,6 +38,8 @@ getting-started:
   - page: The Yoda network drive
     url: /getting-started/getting-started-drive.html
     sub:
+      - page: Setting a data access password
+        url: /getting-started/data-access-password.html
       - page: Connecting to the Yoda Network Disk on Windows
         url: /getting-started/yoda-disk-windows.html
       - page: Connecting to the Yoda Network Disk on MacOS
