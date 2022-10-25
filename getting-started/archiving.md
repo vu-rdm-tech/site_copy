@@ -47,7 +47,7 @@ will check for compliance with privacy rules and regulations.
 
 The data manager can either approve the data package for archiving or suggest improvements.
 
-If the status of your data package changes you will receive a notification.
+If the status of your data package changes you will receive a notification in the portal. You can also choose to get notifications via email, see [this page](notification-settings.md).
 
 ## Managing archived data packages
 

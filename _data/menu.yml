@@ -54,10 +54,10 @@ getting-started:
 functions:
   - page: Storing data in Yoda
     url: /functions/Storing-data.html
-  - page: Managing groups, users and access rights
-    url: /functions/User-management.html
-  - page: Adding and reusing metadata
-    url: /functions/Add-metadata.html
+  #- page: Managing groups, users and access rights
+  #  url: /functions/User-management.html
+  #- page: Adding and reusing metadata
+  #  url: /functions/Add-metadata.html
   - page: Archiving data
     url: /functions/Archiving.html
   - page: Publishing a data package

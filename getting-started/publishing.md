@@ -21,8 +21,7 @@ Click on a data package in the results list in order to view it.
 
 ![Unpublished data packages](../functions/Unpublished-Packages.JPG)
 
-Once you’ve submitted a data package for publication, the data manager of your Yoda community will be notified. He or
-she will check that the data package meets various criteria for publication. The [Data Curation checklist](checklist_YODA_V5p.pdf)
+Once you’ve submitted a data package for publication, the data manager of your Yoda community will be notified. The Data Manager will check that the data package meets various criteria for publication. The [Data Curation checklist](checklist_YODA_V5p.pdf)
 contains an overview of these criteria.
 
-If the data manager encounters any issues, he or she will contact you. Otherwise you'll receive an email notification that your data package has been published. This notification contains the DOI that has been assigned to your data package.
+If the data manager encounters any issues, you will be contacted. Otherwise you'll receive an email notification that your data package has been published. This notification contains the DOI that has been assigned to your data package.
