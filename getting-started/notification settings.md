@@ -1,0 +1,13 @@
+# Notifications
+Yoda uses a notification system to notify you when the status of a data package that was submitted for [archiving](archiving.md) or [publishing](publishing.md).
+
+If you have unread notifications a Bell sign will be shown next to your email address on the top right button.
+
+![settings menu](screenshots/notification-menu.png)
+
+Click on the button and then "Notifications" to view them.
+
+## Email notifications
+Click on Settings in the above menu to configure email notifications.
+
+![settings menu](screenshots/notification-email.png)
