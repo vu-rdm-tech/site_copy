@@ -8,5 +8,6 @@ and download files, although this might be slower than using Yoda as a network d
 
 ## The Yoda Network Drive
 Within the network drive, you work with your files just as you normally would do while using your file explorer. 
-You will have direct access to your files via your file explorer. 
+You will need to install or configure a WebDAV client.
+
 To configure Yoda as a network drive see [getting started with the Yoda Network Drive](getting-started-drive.html).
