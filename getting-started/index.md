@@ -11,3 +11,6 @@ Within the network drive, you work with your files just as you normally would do
 You will need to install or configure a WebDAV client.
 
 To configure Yoda as a network drive see [getting started with the Yoda Network Drive](getting-started-drive.html).
+
+---
+More information can be found on the [SURFsara Knowledge Base](https://servicedesk.surfsara.nl/wiki/display/WIKI/Yoda+Hosting)

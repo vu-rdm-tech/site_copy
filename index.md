@@ -1,5 +1,5 @@
 # Welcome
-Welcome to the Yoda user help pages. This website has practical information on the use of the Yoda for users starting with Yoda. More information can be found on the [SURFsara Knowledge Base](https://servicedesk.surfsara.nl/wiki/display/WIKI/Yoda+Hosting).
+Welcome to the Yoda user help pages. This website has practical information on the use of the Yoda for users [starting with Yoda](getting-started/index.html). 
 
 ## What is YODA?
 YODA is an application for institutions that supports RDM throughout the entire research cycle: from the safe and easy storage and sharing of data during the research process, to the sharing of data within research groups and projects and ultimately to research data archiving and publication.
