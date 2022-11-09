@@ -54,7 +54,7 @@ and you will see the WebDAV (HTTPS) connection page.
 
 Fill in the following information in the appropriate blocks
 
-First set a [Data Access Password](data-access-password.md). 
+First generate a [Data Access Password](data-access-password.md). 
 
 - Server: **data.yoda.vu.nl**
 - Username: your email address
