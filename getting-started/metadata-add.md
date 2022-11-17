@@ -43,8 +43,7 @@ Unstructured metadata can be added as a file to the dataset, for example in a &l
 
 ## The metadata form
 
-By default, the Yoda metadata form consists of approximately 30 fields. Data managers can optionally customize the 
-metadata form of a community.
+By default, the Yoda metadata form consists of approximately 30 fields. 
 Please consult the metadata element list below for a detailed description of the elements.
 
 All mandatory fields are marked with an asterisk.
