@@ -1,7 +1,8 @@
 # Finding and restoring data
 
-You might want to search for data files or folders in your research group, especially when the amount of data you are working with is growing (see iCommands) or when you have many different research groups of folders you work in. It is also possible to retrieve an earlier version (a revision) of a file, for example if you have accidently deleted a file. With the ‘search’ functionality in Yoda, you can do both.
-Finding files and folders
+You might want to search for data files or folders in your research group, especially when the amount of data you are working with is growing or when you have many different research groups of folders you work in. It is also possible to retrieve an earlier version (a revision) of a file, for example if you have accidently deleted a file. With the ‘search’ functionality in Yoda, you can do both.
+
+## Finding files and folders
 
 Follow these steps to search for files or folders in Yoda.
 
