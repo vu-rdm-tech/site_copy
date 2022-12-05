@@ -6,8 +6,8 @@ You might want to search for data files or folders in your research group, espec
 
 Follow these steps to search for files or folders in Yoda.
 
-1) Go to the Yoda portal and sign in.
-2) Click on 'Research' in the menu (the grey bar).
+1. Go to the Yoda portal and sign in.
+2. Click on 'Research' in the menu (the grey bar).
 
 Above the menu is the ‘quick search’ entry. This will search for matching file names.
 
