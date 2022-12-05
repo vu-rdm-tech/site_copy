@@ -18,7 +18,7 @@ Once the search is done you can refine or renew the search with more search opti
 You can select specific components in the drop-down menu to the left of the search bar.
 ![](screenshots/fr-searchoptions.png)
 
-##Search by filename / search by folder
+## Search by filename / search by folder
 
 If you know (part of) the name of the file or folder you are looking for, use this as ‘Search term’.
 
