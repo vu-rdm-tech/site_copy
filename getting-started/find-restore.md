@@ -44,7 +44,7 @@ You can also search by status in the vault.
 
 ## Restoring previous file versions
 
-Previous file versions (revisions) are important if you need to go back to an earlier version of your work. Yoda provides you with a backup functionality of these earlier versions. This is very useful and means that you can restore files yourself.
+Previous file versions (revisions) are important if you need to go back to an earlier version of your work. Yoda provides you with a backup functionality of these earlier versions. This means you can restore files yourself.
 
 Yoda saved a new revision of your data every time you save a file using the same name. Yoda does not overwrite the existing file, but creates a new revision while the older revision is stored in a hidden location. This then becomes a previous file version that you can restore if needed.
 
@@ -67,11 +67,9 @@ Follow these steps to restore older file versions:
 - with a different name
 - in another folder within the research group
 
-Note that Microsoft’s autosave functionality does not function in combination with file storage via internet. Therefore it does not function in Yoda.
-
 Note that during your work a maximum of one revision per 60 seconds is made. Any changes within 60 seconds of the last revision will not form a new revision even though you saved it in the meantime.
 
 ## Other restore options
 A daily backup is made of all data in the Yoda Research space. 
 If you can't restore the file via the revisions or if you need to restore an entire folder structure please contact
-the Research Support Desk at researchdatamanagement@vu.nl for other restore options.  
+the Research Support Desk at [researchdatamanagement@vu.nl](mailto:researchdatamanagement@vu.nl) for other restore options.  
