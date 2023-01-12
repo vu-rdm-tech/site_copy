@@ -1,6 +1,8 @@
 # Welcome
 Welcome to the Yoda user help pages. This website has practical information on the use of the Yoda for users [starting with Yoda](getting-started/index.html). 
 
+YODA is available for every VU researcher. If you need project space to store data for your research project, please use this [request form](https://forms.office.com/r/6TZvTRvBms).
+
 ## What is YODA?
 YODA is an application for institutions that supports RDM throughout the entire research cycle: from the safe and easy storage and sharing of data during the research process, to the sharing of data within research groups and projects and ultimately to research data archiving and publication.
 
@@ -19,9 +21,4 @@ The following features make YODA particularly attractive for researchers (end-us
 - Data publication and the associated minting of Digital Object Identifiers (DOI’s)
 - A flexible integration with iRODS that also caters for (very) data-intensive research.
 
-## Availability
-Yoda is currently in a "pre-production" phase as part of the [Research Support Program](https://ub.vu.nl/nl/Images/DEF_VUAmsterdamResearchSupporProgrammeA3-HR-zonder_tcm253-934314.pdf) in collaboration with SURF and Utrecht University.
-Full implementation is expected starting January 2023.
 
-For participants in the final Yoda user acceptance test in November 2022 a [request form](https://forms.office.com/r/6TZvTRvBms) is
-available. 
