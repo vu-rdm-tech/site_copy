@@ -7,8 +7,6 @@ main:
     url: /getting-started/index.html
   #- title: User guide
   #  url: /functions/index.html
-  - title: Request form
-    url: https://forms.office.com/r/6TZvTRvBms
   - title: Contact
     url: /contact/index.html
   - title: Terms of Use

@@ -1,6 +1,6 @@
 # Welcome
 Welcome to the Yoda user help pages. This website has practical information on the use of the Yoda for users [starting with Yoda](getting-started/index.html). 
-
+ 
 YODA is available for every VU researcher. If you need project space to store data for your research project, please use this [request form](https://forms.office.com/r/6TZvTRvBms).
 
 ## What is YODA?
