@@ -47,13 +47,14 @@ These costs will be charged per archived dataset. You can archive multiple datas
 
 ### Examples
 
-|  | **150GB** | **1TB** | **3TB** | **10TB** | **20TB*** |
+|  | **150GB** | **1TB** | **3TB** | **10TB*** | **20TB*** |
 | --- | --- | --- | --- | --- |--- | 
 | **During research/active storage** | 0 | €200 | €450 | €2200 | €4700 |
 | **After research/archive storage** | 0 | €25 | €50 | €225 | €475 |
 | **10 year sum** | 0 | €250 | €500 | €2250 | €4750 |
 
-*_Yoda does not have a data limit, but handling large amounts of data is complex. Please contact us if you need to _
+*_Yoda does not have a data limit, but handling large amounts of data is complex. Please contact us if you expect to work with large (>10TB) data sets_
+
 
 
 
