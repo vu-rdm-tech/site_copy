@@ -24,6 +24,8 @@ main:
 getting-started:
   - page: Getting started with Yoda
     url: /getting-started/index.html
+  - page: Requesting storage space
+    url: /getting-started/requesting-space.html
   - page: The Yoda portal
     url: /getting-started/getting-started-portal.html
     sub:
