@@ -9,6 +9,8 @@ main:
   #  url: /functions/index.html
   - title: Contact
     url: /contact/index.html
+  - title: Request form
+    url: /getting-started/requesting-space.html
   - title: Terms of Use
     #url: /Yoda-TOU.html
     url: /../docs/terms_of_use.pdf
