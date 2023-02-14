@@ -5,7 +5,7 @@ GNOME users can connect to the Yoda Network Disk with GNOME Files (also known as
 ![alt text](screenshots/linux-connect-to-server.png "GNOME Files screenshot")
 
 Click on "+Other Locations" and enter the server address in the "Connect to Server" bar. The server address is
-https://data.yoda.vu.nl/
+davs://data.yoda.vu.nl/
 
 Then click on the Connect button.
 
