@@ -16,7 +16,25 @@ Run the downloaded installer by double clicking on "Cyberduck-installer.exe" whi
 
 ## Configuring Cyberduck
 
+<!--
 ### Accessing Cyberduck's settings
+
+Cyberducks settings can be accessed by going to the Edit > preferences:
+
+![](screenshots/cbd-preferences.png)
+
+### Single threaded WebDAV copying
+
+Before using Cyberduck you should change the following settings that ensure better data integrity and more reliable file transfers. First go to Cyberducks settings menu and Select "Transfers" from the top menu.
+
+Make sure "Transfer Files" is set to "Open single connection" and that "Segmented downloads" is not selected (it is on by default). When using Cyberduck and webDAV it is strongly advised to use the single connection mode.
+
+![](screenshots/cbd-preferences-set.png)
+
+**Setting single connection mode**.
+
+Close the settings by clicking the x on the top right of the window.
+-->
 
 ## Create a new secure WebDAV (HTTPS) connection to Yoda (bookmark)
 
@@ -138,5 +156,13 @@ Cyberducks settings can be accessed by going to the Edit â preferences:
 
 ![](screenshots/cbd-preferences.png)
 
+<!-- 
+### Enabling checksum verification
 
+Cyberduck can try to verify that a file was downloaded or uploaded using an internal checksum. To enable this functionality, first go to Cyberducks settings menu and Select "Transfers" from the top menu and the "Checksum" tab. Enable the upload/download verification as required. Enabling either of these options can **negatively** affect Cyberduck's file transfer performance, however, the **upload** option is highly recommended for ensuring **archive** data integrity.
+
+![](screenshots/cbd-preferences-set-checksum.png)
+
+Close the preferences window to save your new configuration.
+-->
 
