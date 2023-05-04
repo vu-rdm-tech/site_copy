@@ -8,7 +8,10 @@ Publishing a data package has the following effects:
 - The metadata of the data package will be published in data catalogs such as [Dans NARCIS](https://www.narcis.nl/?Language=nl) and [DataCite](https://search.datacite.org/).
 - If the Access Type metadata field is set to &ldquo;Open - Freely retrievable&rdquo;, the data in the data package will be published as well. If the Access Type metadata field is set to &ldquo;Restricted&rdquo; or &ldquo;Closed&rdquo;, the data in the data package won't be published.
 
-To submit a data package for publication, navigate to the data package in the vault and press the &ldquo;Publish&rdquo; button.
+The [VU Yoda repository page](https://commons.datacite.org/repositories/9z2c5d2)  on DataCite Commons shows statistics of datasets currently published in the VU Yoda. 
+Click "Find Related Works" on that page to see a [list of the datasets](https://commons.datacite.org/doi.org?query=client.uid:delft.vudata). 
+
+To submit your data package for publication, navigate to the data package in the vault and press the &ldquo;Publish&rdquo; button.
 
 ![SubmitforPublications](SubmitforPublications.JPG)
 
