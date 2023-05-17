@@ -5,7 +5,7 @@ After a data package has been archived in the vault, it can optionally be submit
 Publishing a data package has the following effects:
 
 - A [DOI](https://www.doi.org/) will be assigned to the data package by Yoda. This persistent identifier can be used to refer to the data package, e.g. in a scientific publication.
-- The metadata of the data package will be published in data catalogs such as [Dans NARCIS](https://www.narcis.nl/?Language=nl) and [DataCite](https://search.datacite.org/).
+- The metadata of the data package will be published in data catalogs such as [Dans NARCIS](https://www.narcis.nl/?Language=nl) and [DataCite](https://commons.datacite.org/).
 - The metadata will automatically be registered on the [VU Research Portal](https://research.vu.nl) after some time.
 - If the Access Type metadata field is set to &ldquo;Open - Freely retrievable&rdquo;, the data in the data package will be published as well. If the Access Type metadata field is set to &ldquo;Restricted&rdquo; or &ldquo;Closed&rdquo;, the data in the data package won't be published.
 
