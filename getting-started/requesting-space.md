@@ -23,37 +23,11 @@ In the form you can also indicate if you would like some help getting started wi
 
 ## Costs
 
-### Active (Yoda Research) storage
-These are the costs of the active storage in the Research Folder per project. 
+The costs of storing data in Yoda have been harmonized with the other research data storage and archiving solutions provided at the VU. Usage of Yoda for small amounts (up to hundreds of GB) of data is free.[This page](https://vu.nl/en/employee/research-data-support/costs-research-en-archiving-storage) on vu.nl explains the cost model and free use limit.
 
-| **Size** | **Cost** |
-| --- | --- |
-| <500GB | Free |
-| 500GB - 2TB | €200 | 
-| > 2TB | €200 + €250 for every TB above 2TB |
+Note that the cost of [archived](archiving.md) in the Yoda Vault is significantly cheaper than keeping all your data in active storage.
 
-Prices are all per year.
 
-### Archive (Yoda Vault) storage
-These costs will be charged per archived dataset. You can archive multiple datasets per project.
-
-| **Size** | **Cost** | **10 years*** |
-| --- | --- | --- |
-| <500GB | Free | Free |
-| 500GB - 2TB | €25 | €250 |
-| > 2TB | €25 + €25 for every TB above 2TB | €250 + €250 for every TB above 2TB |
-
-*_Archiving costs will be billed in advance for the entire period (default is 10 year)._
-
-### Examples
-
-|  | **150GB** | **1TB** | **3TB** | **10TB*** | **20TB*** |
-| --- | --- | --- | --- | --- |--- | 
-| **During research/active storage** | 0 | €200 | €450 | €2200 | €4700 |
-| **After research/archive storage** | 0 | €25 | €50 | €225 | €475 |
-| **10 year sum** | 0 | €250 | €500 | €2250 | €4750 |
-
-*_Yoda does not have a data limit, but handling large amounts of data is complex. Please contact us if you expect to work with large (>10TB) data sets_
 
 
 
