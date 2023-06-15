@@ -8,4 +8,3 @@ This part of the website covers the main functions of Yoda:
 - [Archiving your data as a data package](Archiving.html)
 - [Publishing your data](Publishing.html)
 
-.
