@@ -1,12 +1,12 @@
 # Using Cyberduck with Yoda
 
-Cyberduck is desktop software for Microsoft Windows 10 and Apple OSX that can be used to transfer files between your computer and Yoda. In this guide we will explain how to install Cyberduck, create a new connection (bookmark) to Yoda and end with some frequently asked questions and tips on using Cyberduck
+Cyberduck is desktop software for Microsoft Windows 10 and Apple macOS that can be used to transfer files between your computer and Yoda. In this guide we will explain how to install Cyberduck, create a new connection (bookmark) to Yoda and end with some frequently asked questions and tips on using Cyberduck
 
 ## Getting Cyberduck
 
-**Apple OSX** : Cyberduck can be installed from the VU software center or downloaded from the internet.
+**macOS** : Cyberduck can be installed from the VU software center or downloaded from the internet.
 
-**Microsoft Windows 10** : Download Cyberduck from [https://cyberduck.io/download/](https://cyberduck.io/download/) it is free and you **do not** need to register.
+**Microsoft Windows 10/11** : Download Cyberduck from [https://cyberduck.io/download/](https://cyberduck.io/download/) it is free and you **do not** need to register.
 
 ![](screenshots/cbd-download.png)
 
@@ -36,7 +36,7 @@ Make sure "Transfer Files" is set to "Open single connection" and that "Segmente
 Close the settings by clicking the x on the top right of the window.
 -->
 
-## Create a new secure WebDAV (HTTPS) connection to Yoda (bookmark)
+### Create a new secure WebDAV (HTTPS) connection to Yoda (bookmark)
 
 First create a new bookmark by pressing the + button on the lower left side of the screen.
 
@@ -68,7 +68,7 @@ Cyberduck uses your home folder as a default directory to download files. This c
 
 You have successfully created a bookmark, close the editing window by clicking on the R X button on the top right of the edit window to return to the main Cyberduck screen.
 
-## Connecting to Yoda
+### Connecting to Yoda
 
 The main screen shows all the connections (bookmarks) you have defined. To connect, double click on the bookmark (in this case "data.yoda.vu.nl - WebDAV (HTTPS)") and you will be connected.
 

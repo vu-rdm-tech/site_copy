@@ -1,4 +1,15 @@
-# Connecting to the Yoda Network Disk on MacOS
+# Connecting to the Yoda Network Disk on macOS
+
+These pages contains information about methods for connecting to
+the Yoda Network Disk on PCs and laptops that run macOS. There are 2 basic ways to access the Yoda Network 
+Disk from a Mac. [Mounting the Yoda Network Disk in finder](#mounting-the-yoda-network-disk-in-finder) or file transfer tools, we recommend [Cyberduck](yoda-disk-cyberduck.md). Which one works best
+ depends on your workflow.
+
+## Using Cyberduck
+Cyberduck can be installed from the VU software center or [downloaded from the internet](https://cyberduck.io/download/). [Information on configuring Cyberduck](yoda-disk-cyberduck.md).
+
+
+## Mounting the Yoda Network Disk in Finder
 
 You can open the Yoda Network Disk using the Finder app. By default, the Finder icon is shown in the bottom left corner of your screen, in the Dock. Click on this icon. 
 
@@ -25,5 +36,3 @@ You should now see a credentials dialog. The "Connect as" setting should be set 
 in my keychain&rdquo;.  Click on the connect button.
 
 You should now have a new Yoda Network Disk location in Finder. Its name is the network address you entered before. You may have to scroll down in finder in order to see it.
-
-You can also connect using Cyberduck on MacOS, see [connect using cyberduck](yoda-disk-cyberduck)
