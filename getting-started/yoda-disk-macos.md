@@ -6,7 +6,9 @@ Disk from a Mac. [Mounting the Yoda Network Disk in finder](#mounting-the-yoda-n
  depends on your workflow.
 
 ## Using Cyberduck
-Cyberduck can be installed from the VU software center or [downloaded from the internet](https://cyberduck.io/download/). [Information on configuring Cyberduck](yoda-disk-cyberduck.md).
+Cyberduck can be installed from the VU software center or [downloaded from the internet](https://cyberduck.io/download/). 
+
+[Information on configuring Cyberduck](yoda-disk-cyberduck.md).
 
 
 ## Mounting the Yoda Network Disk in Finder
