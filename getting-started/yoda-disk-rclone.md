@@ -14,6 +14,9 @@ Note: if you are on Linux and comfortable with commandline tools, the [iRODS ico
 Rclone always expects you to create a config first:
 ```
 rclone config
+```
+You will be led through a number of questions
+```
 Current remotes:
 
 Name                 Type
@@ -67,7 +70,7 @@ Option user.
 User name.
 In case NTLM authentication is used, the username should be in the format 'Domain\User'.
 Enter a value. Press Enter to leave empty.
-user> *****@vu.nl
+user> e.m.ployee@vu.nl
 
 Option pass.
 Password.
@@ -80,7 +83,9 @@ Enter the password:
 password:
 Confirm the password:
 password:
-
+```
+Password is a [Data Access Password](data-access-password.md) generated in Yoda.
+```
 Option bearer_token.
 Bearer token instead of user/pass (e.g. a Macaroon).
 Enter a value. Press Enter to leave empty.
@@ -95,7 +100,7 @@ Options:
 - type: webdav
 - url: https://data.yoda.vu.nl
 - vendor: other
-- user: p.j.m.vos@vu.nl
+- user: e.m.ployee@vu.nl
 - pass: *** ENCRYPTED ***
   Keep this "yoda" remote?
   y) Yes this is OK (default)
@@ -116,6 +121,20 @@ r) Rename remote
 s) Set configuration password
 q) Quit config
 e/n/d/r/c/s/q> q
+```
+
+## Updating the Data Access Password
+A Yoda [Data Access Password](data-access-password.md) is only valid for a set amount of time. Once it has expired you should generate a new one. Run `rclone config`, choose `e) Edit existing remote` and enter the new DAP in the password section:
+```
+...
+
+Option pass.
+Password.
+Choose an alternative below. Press Enter for the default (n).
+y) Yes, type in my own password
+g) Generate random password
+n) No, keep existing (default)
+y/g/n> g
 ```
 
 ## Mounting on Windows
