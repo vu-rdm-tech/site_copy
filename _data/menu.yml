@@ -54,10 +54,15 @@ getting-started:
         url: /getting-started/yoda-disk-linux.html
       - page: Getting started with the iRODS iCommands
         url: /getting-started/icommands.html
-  - page: Finding and restoring data
-    url: /getting-started/find-restore.html
-  - page: Encryption using Cryptomator
-    url: /getting-started/yoda-disk-cryptomator.html
+  - page: Security considerations
+    url: /getting-started/security-considerations.html
+    sub:
+      - page: Finding and restoring data
+        url: /getting-started/find-restore.html
+      - page: Encryption using Cryptomator
+        url: /getting-started/yoda-disk-cryptomator.html
+      - page: Other security considerations
+        url: /getting-started/yoda-security.html
 
 functions:
   - page: Storing data in Yoda
@@ -70,4 +75,3 @@ functions:
     url: /functions/Archiving.html
   - page: Publishing a data package
     url: /functions/Publishing.html
-    
