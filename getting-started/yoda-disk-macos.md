@@ -6,9 +6,9 @@ Disk from a Mac: [Mounting the Yoda Network Disk in finder](#mounting-the-yoda-n
  depends on your workflow.
 
 ## Using Cyberduck
-1. Download Cyberduck from the VU software center or [downloaded from the internet](https://cyberduck.io/download/). 
+First fownload Cyberduck from the VU software center or from the [Cyberduck website](https://cyberduck.io/download/). 
 
-2. Configure Cyberduck using the [Information on configuring Cyberduck](yoda-disk-cyberduck.md).
+Then configure Cyberduck using the [Information on configuring Cyberduck](yoda-disk-cyberduck.md).
 Part of this process is [creating a Data Access Password](data-access-password.md)
 
 
