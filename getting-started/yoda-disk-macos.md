@@ -2,13 +2,14 @@
 
 These pages contains information about methods for connecting to
 the Yoda Network Disk on PCs and laptops that run macOS. There are 2 basic ways to access the Yoda Network 
-Disk from a Mac. [Mounting the Yoda Network Disk in finder](#mounting-the-yoda-network-disk-in-finder) or file transfer tools, we recommend [Cyberduck](yoda-disk-cyberduck.md). Which one works best
+Disk from a Mac: [Mounting the Yoda Network Disk in finder](#mounting-the-yoda-network-disk-in-finder) or via file transfer tools, in which case we recommend [Cyberduck](yoda-disk-cyberduck.md). Which one works best
  depends on your workflow.
 
 ## Using Cyberduck
-Cyberduck can be installed from the VU software center or [downloaded from the internet](https://cyberduck.io/download/). 
+1. Download Cyberduck from the VU software center or [downloaded from the internet](https://cyberduck.io/download/). 
 
-[Information on configuring Cyberduck](yoda-disk-cyberduck.md).
+2. Configure Cyberduck using the [Information on configuring Cyberduck](yoda-disk-cyberduck.md).
+Part of this process is [creating a Data Access Password](data-access-password.md)
 
 
 ## Mounting the Yoda Network Disk in Finder
@@ -21,7 +22,7 @@ If you don't see the Finder icon, you can alternatively start Finder by pressing
 
 Now press the command key and the "K" key to connect to the Yoda server. You should now see this dialog:
 
-![alt text](screenshots/macos-connect-server.jpg "Connect to server dialog")
+![alt text](screenshots/macos-connect-server.png "Connect to server dialog")
 
 Enter https://data.yoda.vu.nl/ as server address.
 
@@ -38,3 +39,5 @@ You should now see a credentials dialog. The "Connect as" setting should be set 
 in my keychain&rdquo;.  Click on the connect button.
 
 You should now have a new Yoda Network Disk location in Finder. Its name is the network address you entered before. You may have to scroll down in finder in order to see it.
+
+![alt text](screenshots/macos-finder-screen.png "Connect to server credentials dialog")
