@@ -23,3 +23,6 @@ pc's.
 
 Note it is possible to directly mount the Yoda Disk in [Windows Explorer](yoda-disk-windowsnative.md). However, this has severe restrictions: a maximum
 file size of 50MB and a maximum of 1000 files per folder. For this reason we do not recommend this method. 
+
+### Commandline
+If you are familiar with commandline tools [rclone](yoda-disk-rclone.md) is also a good option to access the Yoda Network disk via Webdav. It also provides the option to use a drive letter.
