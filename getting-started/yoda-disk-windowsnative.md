@@ -37,11 +37,15 @@ can now drag and drop your files to upload or download them.
 
 ## Increasing maximum file size
 
-By default, the native WebDAV client only works with files smaller than 50 MB. You can increase this limit
+By default, the native WebDAV client on Windows 10 only works with files smaller than 50 MB. 
+
+On Windows 11 the limit is set to the maximum 4GB by default.
+
+You can increase the limit on Windows 10
 to 4 GB if you have a local administrator account:
 - Open the registry editor by pressing the start button, entering &ldquo;regedit&rdquo; and pressing the enter key.
 - If you are asked whether the registry editor should be allowed to change the system settings, confirm.
-- Navigate to key HKEY\_LOCAL\_MACHINE\SYSTEM\CurrentControlSet\Services\WebClient\Parameters
+- Navigate to key `HKEY\_LOCAL\_MACHINE\SYSTEM\CurrentControlSet\Services\WebClient\Parameters`
 - Open the FileSizeLimitInBytes key
 
 ![alt text](screenshots/windows-native-registry-key.jpg "Screenshot Windows: FileSizeLimitInBytes registry key")
@@ -52,3 +56,14 @@ to 4 GB if you have a local administrator account:
 
 - Click on the &ldquo;OK&rdquo; button and close the registry editor
 - Restart your computer
+
+## Increasing the number of files shown in a folder
+By default the native WebDAV client on Windows 10 & 11 will show a folder containing more than 1000 files as empty. If you need to work with larger folders you can increase this limit if you have a local administrator account:
+
+- Open the registry editor by pressing the start button, entering “regedit” and pressing the - enter key.
+- If you are asked whether the registry editor should be allowed to change the system settings, confirm.
+- Navigate to key `HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\WebClient\Parameters`
+- Open the `FileAttributesLimitInBytes` key:
+![alt text](screenshots/screenshot-windows-fileattributeslimit.png "Screenshot Windows: increasing the file size limit")
+- In the Value data box, type the value that you want to use, and then click OK. For example, if the Web folder contains 20,000 files, type 20000000 in the Value data box.
+![alt text](screenshots/screenshot-windows-fileattributeslimit2.png "Screenshot Windows: increasing the file size limit")
