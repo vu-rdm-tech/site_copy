@@ -40,13 +40,12 @@ sudo yum versionlock irods-runtime irods-icommands
 ```
 
 ### Installing iCommands on Ubuntu
-The following should work to install the icommands 4.3.0 on Ubuntu 18 or 20 (22 is not suppported).
+The following should work to install the icommands 4.3.0 on Ubuntu 20 or 22.
 ```
 wget -qO - https://packages.irods.org/irods-signing-key.asc | sudo apt-key add -
 echo "deb [arch=amd64] https://packages.irods.org/apt/ $(lsb_release -sc) main" | sudo tee /etc/apt/sources.list.d/renci-irods.list
 sudo apt-get update
-sudo apt -y install aptitude irods-runtime irods-icommands
-sudo aptitude hold irods-runtime irods-icommands
+sudo apt install irods-runtime irods-icommands
 ```
 ## Configuration
 
