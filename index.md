@@ -3,7 +3,7 @@ Welcome to the Yoda user help pages. This website has practical information on t
  
 YODA is available for every VU researcher. If you need project space to store data for your research project, you can [request it via a form](getting-started/requesting-space.html).
 
-# NOTICE - Service Disruption: Planned Yoda Upgrade February 22, 2024
+## NOTICE - Service Disruption: Planned Yoda Upgrade February 22, 2024
 Please be kindly advised that on February 22, 2024, Yoda services will unavailable.
 
 An upgrade of services will take place between 6:00 AM and 6:00PM on February 22, 2024.  
