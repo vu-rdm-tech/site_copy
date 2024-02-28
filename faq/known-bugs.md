@@ -10,4 +10,4 @@ If a folder path contains a space (e.g. "research-ub-test-dataset1/first experim
 
 Workaround: rename the folder so it does not contain spaces, for example by subsituting with hyphens "-" or underscores "_".
 
-Please note avoiding spaces and other special characters (e.g.: ~!@#$%^&*()+"';:=/\<>{}`?![]|) in file and folder names is best practice. Although Yoda allows the use of special characters they are often interpreted differently by other file systems.
+Please note avoiding spaces and other special characters (e.g.: ``~!@#$%^&*()+"';:=/\<>{}`?![]|``) in file and folder names is best practice. Although Yoda allows the use of special characters they are often interpreted differently by other file systems.
