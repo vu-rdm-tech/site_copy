@@ -3,13 +3,12 @@ Welcome to the Yoda user help pages. This website has practical information on t
  
 YODA is available for every VU researcher. If you need project space to store data for your research project, you can [request it via a form](getting-started/requesting-space.html).
 
-## NOTICE - Service Disruption: Planned Yoda Upgrade February 22, 2024
-Please be kindly advised that on February 22, 2024, Yoda services will unavailable.
+## NOTICE - Authentication changed since February 22nd, 2024
+Since Yoda 1.9 authentication uses SRAM ([SURF Research Access Management](https://www.surf.nl/en/services/surf-research-access-management). This means you will receive an invitation from SRAM for each Yoda Group you are a member of. You need to accept these invitations, after that you can log in as normal by providing your e-mail address.
 
-An upgrade of services will take place between 6:00 AM and 6:00PM on February 22, 2024.  
-The main upgrade feature is the deployment of SRAM, which will further improve platform security by supporting multi-factor authentication (MFA) for all users. 
+Most non-VU users will be able to login via their own institutional account using the same procedure.
 
-All existing users are required to validate their accounts at least once through SRAM upon receiving a system notification, more information in [this document](docs/YODA_Upgrade_1.9_SRAM_INFO_Users_v02_20240206.pdf)
+Users who do not have an SRAM-connected institutional account must create an [eduID](https://www.eduid.nl/en/), more information in [this document](docs/YODA_Upgrade_1.9_SRAM_INFO_Users_v02_20240206.pdf).
 
 ## What is YODA?
 YODA is an application for institutions that supports RDM throughout the entire research cycle: from the safe and easy storage and sharing of data during the research process, to the sharing of data within research groups and projects and ultimately to research data archiving and publication.
