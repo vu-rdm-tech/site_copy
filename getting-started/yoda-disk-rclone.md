@@ -139,7 +139,7 @@ Choose an alternative below. Press Enter for the default (n).
 y) Yes, type in my own password
 g) Generate random password
 n) No, keep existing (default)
-y/g/n> g
+y/g/n> y
 ```
 
 ## Mounting on Windows

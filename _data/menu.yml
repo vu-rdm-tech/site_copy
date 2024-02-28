@@ -54,6 +54,8 @@ getting-started:
         url: /getting-started/yoda-disk-linux.html
       - page: Getting started with the iRODS iCommands
         url: /getting-started/icommands.html
+  - page: Known bugs and issues
+    url: /faq/known-bugs.html
   - page: Finding and restoring data
     url: /getting-started/find-restore.html
   - page: Encryption using Cryptomator
