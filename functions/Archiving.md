@@ -66,4 +66,4 @@ that know how to transform specific formats.
 A best practice to avoid high curation costs is to store your data in open formats. DANS maintains a
 [list of open file formats](https://dans.knaw.nl/en/about/services/easy/information-about-depositing-data/before-depositing/file-formats).
 If using only open file formats is not feasible, consider exporting each file in a vendor-specific format to an open file format,
-and storing the exported open format version along with the vendor-specific format version.
+and storing the exported open format version along with the vendor-specific format version..
