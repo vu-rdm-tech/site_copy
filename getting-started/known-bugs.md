@@ -1,10 +1,5 @@
 # Known bugs and workarounds
 
-### - Publication: Clicking on a DOI of a new published dataset leads to a "Page not Found" error
-We are working with SURF to fix this bug. If possible defer submitting a dataset for publication until the bug is fixed. 
-
-If time is of the essence please let us know via your data steward so we can prioritize fixing your dataset DOI.
-
 ### - Special Characters (space): a space in folder names prevent the accessibility of a metadata form
 If a folder path contains a space (e.g. `research-ub-test/dataset1/first experiment`), clicking on the metadata button in that folder leads to a "Page not Found" error.
 
@@ -20,3 +15,10 @@ When trying to remove a user -who has not accepted the invitation to the corresp
 "Something went wrong getting the unique user id for user {email}#vu from SRAM. Please contact a system administrator."
 
 Please ignore this message: the user will still be removed from the Group and will no longer have access to the data. When you refresh the page you will see the user is no longer a member of the group.
+
+# Recently fixed
+
+### - Publication: Clicking on a DOI of a new published dataset leads to a "Page not Found" error. 
+_Fixed 2024-02-28_
+
+
