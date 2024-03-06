@@ -16,7 +16,7 @@ When trying to remove a user -who has not accepted the invitation to the corresp
 
 Please ignore this message: the user will still be removed from the Group and will no longer have access to the data. When you refresh the page you will see the user is no longer a member of the group.
 
-# Recently fixed
+## Recently fixed
 
 ### - Publication: Clicking on a DOI of a new published dataset leads to a "Page not Found" error. 
 _Fixed 2024-02-28_
