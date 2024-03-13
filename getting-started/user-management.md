@@ -25,10 +25,7 @@ If you are the group manager of a group, you will be able to add users to the gr
 
 ![Adding user](../functions/Adding-user.jpg)
 
-A student or employee with a VUnetID will be able to log in using his or her email address and
-VUnetID password. New users with an external email address will receive an invitation link that can be used to create an account.
-In this case, you (the host) will receive two email notifications: one to confirm the invitation and one to confirm that the user has
-registered his or her account.
+The added user will receive an invitation to join the connected SRAM collaboration. Most users will be able to log in with their own institutional account, if their institute is not connected to SRAM they can create an **eduID (NL)** account, see [this page](getting-started-portal#invitation-to-yoda-collaboration).
 
 By default, a new user will be a regular member of the group. If you want the user to be a member with read-only access or
 a group manager, see below for how to change users' roles.
