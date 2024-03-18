@@ -22,6 +22,10 @@ A best practice to keep your datasets re-usable is to store your data in open fo
 [list of open file formats](https://dans.knaw.nl/en/about/services/easy/information-about-depositing-data/before-depositing/file-formats).
 If using only open file formats is not feasible, consider exporting each file in a vendor-specific format to an open file format, and storing the exported open format version along with the vendor-specific format version.
 
+You can check in Yoda if you are in compliance with either the DANS Preferred formats or the 4TU Preferred formats by pressing the &ldquo;Actions (Check for compliance with policy)&rdquo; button. 
+
+![CheckforCompliance1](screenshots/CheckforCompliance1.png)
+![CheckforCompliance2](screenshots/CheckforCompliance2.png)
 
 ## Submitting a data package to the Vault
 
@@ -34,9 +38,9 @@ you want to submit to the vault. Check that all mandatory metadata has been ente
 
 Now press the &ldquo;Actions (Submit)&rdquo; button. 
 
-![Submit](../functions/Submit-button.JPG)
+![Submit](screenshots/submit-action.png)
 
-If any metadata is missing, the system will tell you what metadata still needs to be entered.
+If any mandatory metadata is missing, the system will tell you what metadata still needs to be entered.
 If all required metadata is present, the system will lock the folder and its subfolders during the archiving process. This ensures that data in the folder can no longer be changed. Once the system has copied all data to the vault, the lock will be removed
 automatically.
 
@@ -53,5 +57,4 @@ If the status of your data package changes you will receive a notification in th
 
 The vault of your group becomes visible in the Yoda portal once it contains at least one data package. Everyone with access to your group research folder also has read-only access to the vault of your group.
 
-If the research folder has been deleted, you can request access to the archived data package via the data manager. If the data package has been published it can be retrieved via data catalogs such as [Dans Narcis](https://www.narcis.nl/?Language=nl)
-and [DataCite](https://search.datacite.org/).
+If the research folder has been deleted, you can request access to the archived data package via the data manager. If the data package has been published it can be retrieved via data catalogs such as [DataCite](https://search.datacite.org/).
