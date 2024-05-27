@@ -7,14 +7,11 @@ When trying to remove a user -who has not accepted the invitation to the corresp
 
 Please ignore this message: the user will still be removed from the Group and will no longer have access to the data. When you refresh the page you will see the user is no longer a member of the group.
 
-### - Vault submissions fail
-When a dataset submission is approved by the datamanager the data is only partially copied to the Vault space and the Status in the research space stays _Accepted_. 
-
-Please notify us via yoda.ub@vu.nl if this happens so we can ask the system admin to restart the process manually.
-
-The problem is under investigation at SURF.
-
 ## Recently fixed
+
+### - Vault submissions fail
+_Fixed 2024-05-01_
+When a dataset submission is approved by the datamanager the data is only partially copied to the Vault space and the Status in the research space stays _Accepted_. 
 
 ### - Publication: Clicking on a DOI of a new published dataset leads to a "Page not Found" error. 
 _Fixed 2024-02-28_
