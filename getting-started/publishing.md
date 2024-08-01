@@ -14,8 +14,8 @@ Click "Find Related Works" on that page to see a [list of the datasets](https://
 
 Note: If needed you can update the metadata of a published data package by clicking the &ldquo;Metadata&rdquo; button and the the &ldquo;Update metadata&rdquo; button.
 
-![UpdateMetadata1](screenshots/UpdateMetadata1.PNG)
-![UpdateMetadata2](screenshots/UpdateMetadata2.PNG)
+![UpdateMetadata1](screenshots/UpdateMetadata1.png)
+![UpdateMetadata2](screenshots/UpdateMetadata2.png)
 
 To submit a data package for publication, navigate to the data package in the vault and press the &ldquo;Submit for publication&rdquo; button.
 
