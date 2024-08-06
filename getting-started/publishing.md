@@ -21,13 +21,12 @@ To submit a data package for publication, navigate to the data package in the va
 
 ![SubmitforPublications](screenshots/submit-publication.png)
 
-You can search for data that is archived but not (yet) published using the &ldquo;Search by Status&rdquo; function in the Yoda Portal to search for unpublished vault datasets.
+You can search for data that is archived but not (yet) published using the &ldquo;Search by Status&rdquo; function in the Yoda Portal.
 The list of data packages will include only the data packages of project groups of which you are a member.
 Click on a data package in the results list in order to view it.
 
 ![Unpublished data packages](screenshots/search-unpublished.png)
 
-Once you’ve submitted a data package for publication, the data manager of your Yoda community will be notified. The Data Manager will check that the data package meets various criteria for publication. The [Data Curation checklist](checklist_YODA_V5p.pdf)
-contains an overview of these criteria.
+Once you’ve submitted a data package for publication, the data manager of your Yoda community will be notified. The Data Manager will check that the data package meets various criteria for publication.
 
 If the data manager encounters any issues, you will be contacted. Otherwise you'll receive an email notification that your data package has been published. This notification contains the DOI that has been assigned to your data package.
