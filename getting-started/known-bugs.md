@@ -1,5 +1,12 @@
 # Known bugs and workarounds
 
+### - Datasets can be submitted without mandatory Creator Affiliation name
+When leaving the [Creator] [Affiliation Name] field empty, the system will indicate clearly that the metadata form is not complete by marking the field with a red border and showing the green "Required for the vault" bar as incomplete. 
+On clicking "submit" the system should show an error "Metadata is not valid, please open metadata form for more information", but it does not and the dataset is allowed to be further processed and can be secured in the Vault normally. 
+If the dataset is later submitted and approved for publication the publication process fails and no resolvable DOI is generated.
+
+Make sure Affiliation names are added for each Creator. Note that if the institute is not in the dropdown list you can just type the Name and leave the identifier field empty.
+
 ### - As Group Manager: Error when trying to remove user in the Group Manager
 When trying to remove a user -who has not accepted the invitation to the corresponding SRAM CO- from a Yoda group. The following error is shown:
 
