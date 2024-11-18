@@ -7,7 +7,8 @@ Publishing a data package has the following effects:
 - A [DOI](https://www.doi.org/) will be assigned to the data package by Yoda. This persistent identifier can be used to refer to the data package, e.g. in a scientific publication.
 - The metadata of the data package will be published in data catalogs such as and [DataCite](https://commons.datacite.org/).
 - The metadata can be registered in [Pure](https://research.vu.nl/admin/workspace.xhtml) and shown on the [VU Research Portal](https://research.vu.nl).
-- If the Access Type metadata field is set to &ldquo;Open - Freely retrievable&rdquo;, the data in the data package will be published as well. If the Access Type metadata field is set to &ldquo;Restricted&rdquo; or &ldquo;Closed&rdquo;, the data in the data package won't be published.
+- If the Access Type metadata field is set to &ldquo;Open - Freely retrievable&rdquo;, the data in the data package will be published as well. If the Access Type metadata field is set to &ldquo;Restricted&rdquo; or &ldquo;Closed&rdquo;, the data in the data package won't be published. 
+- For all cases you need to supply a suitable license which details the terms and conditions under which your data can or cannot be used. See [this page for more information](selecting-license.md). 
 
 The [VU Yoda repository page](https://commons.datacite.org/repositories/9z2c5d2)  on DataCite Commons shows statistics of datasets currently published in the VU Yoda.
 Click "Find Related Works" on that page to see a [list of the datasets](https://commons.datacite.org/doi.org?query=client.uid:delft.vudata).
