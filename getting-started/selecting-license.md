@@ -34,7 +34,7 @@ When your data can be reused for new research, but not through an open license, 
 
 ## Closed
 
-Under certain circumstances, it becomes undesirable, inadvisable or even illegal to reuse your data new research. The provider of the data may prohibit sharing the data or the signed informed consent form may forbid sharing the data with third parties. In this situation you can use the VU Closed license template. The VU always retains the right to access the dataset for verification purposes.
+Under certain circumstances, it becomes undesirable, inadvisable or even illegal to reuse your data for new research. The provider of the data may prohibit sharing the data or the signed informed consent form may forbid sharing the data with third parties. In this situation you can use the VU Closed license template. The VU always retains the right to access the dataset for verification purposes.
 
 ### Instruction on using the VU Closed license
 
